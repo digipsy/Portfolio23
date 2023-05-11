@@ -4,9 +4,9 @@ const Header = () => {
   return (
 
     <header>
-      <p className='logo'>Akshay Mistry (UXay)</p>
       <p className='siteName'>Portfolio 2023</p>
-      <a href='.'>About</a>
+      <p className='logo'>Akshay Mistry (UXay)</p>
+      {/* <a href='.'>About</a> */}
     </header>
   );
 };

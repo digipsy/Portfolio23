@@ -6,7 +6,7 @@ import glsl from "babel-plugin-glsl/macro";
 // import { AnimationOnScroll } from 'react-animation-on-scroll';
 // import "animate.css/animate.min.css";
 
-import ACS from "../imgs/acs-banner.png";
+import ACS from "../imgs/arist-banner.png";
 
 const WaveyShaderMaterial = shaderMaterial (
     // Uniform

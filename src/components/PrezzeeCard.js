@@ -6,7 +6,7 @@ import glsl from "babel-plugin-glsl/macro";
 // import { AnimationOnScroll } from 'react-animation-on-scroll';
 // import "animate.css/animate.min.css";
 
-import ACS from "../imgs/acs-banner.png";
+import ACS from "../imgs/gizmo-banner.png";
 
 
 const WaveyShaderMaterial = shaderMaterial (
@@ -81,7 +81,7 @@ const PrezzeeCard = () => {
   return (
     <div class="projectItem">
       {/* <AnimationOnScroll animateIn="animate__bounceIn"> */}
-        <Canvas className='wid80' camera={{ fov: 28, position: [0, 0, 12] }}>
+        <Canvas className='wid80' camera={{ fov: 32, position: [0, 0, 12] }}>
           <Suspense fallback={null}>
             <Wave />
           </Suspense>
@@ -89,7 +89,7 @@ const PrezzeeCard = () => {
         <div class="projectName">
             <h2 class=" text">
                 <span> <sup>05</sup> </span>
-                Prezzee
+                Gizmo
             </h2>
         </div>
       {/* </AnimationOnScroll> */}

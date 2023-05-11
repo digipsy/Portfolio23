@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.f41d8750.css",
-    "main.js": "/static/js/main.e3b840b4.js",
+    "main.css": "/static/css/main.8b668d83.css",
+    "main.js": "/static/js/main.cb0844ef.js",
     "static/js/787.cf91fbdc.chunk.js": "/static/js/787.cf91fbdc.chunk.js",
+    "static/media/arist-banner.png": "/static/media/arist-banner.820cd2e386b1c2ed255b.png",
+    "static/media/tia-banner.png": "/static/media/tia-banner.80d15b853a03a245a8c9.png",
+    "static/media/workee-banner.png": "/static/media/workee-banner.21b7b1492dddc620fd08.png",
     "static/media/acs-banner.png": "/static/media/acs-banner.cb91b85bab46249380bb.png",
+    "static/media/gizmo-banner.png": "/static/media/gizmo-banner.e995aedbcb419323362c.png",
     "static/media/pud-banner.png": "/static/media/pud-banner.66c497fd9c7c8c7b2671.png",
     "static/media/MonumentExtended-Regular.otf": "/static/media/MonumentExtended-Regular.db74f7a563ec017311bc.otf",
     "static/media/MonumentExtended-Ultrabold.otf": "/static/media/MonumentExtended-Ultrabold.9db16afed1996befff6b.otf",
     "static/media/AvenirLTStd-Roman.otf": "/static/media/AvenirLTStd-Roman.0bfb049d9455e81fd1da.otf",
     "index.html": "/index.html",
-    "main.f41d8750.css.map": "/static/css/main.f41d8750.css.map",
-    "main.e3b840b4.js.map": "/static/js/main.e3b840b4.js.map",
+    "main.8b668d83.css.map": "/static/css/main.8b668d83.css.map",
+    "main.cb0844ef.js.map": "/static/js/main.cb0844ef.js.map",
     "787.cf91fbdc.chunk.js.map": "/static/js/787.cf91fbdc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f41d8750.css",
-    "static/js/main.e3b840b4.js"
+    "static/css/main.8b668d83.css",
+    "static/js/main.cb0844ef.js"
   ]
 }

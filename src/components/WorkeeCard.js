@@ -3,7 +3,7 @@ import * as THREE from "three";
 import { Canvas, extend, useFrame, useLoader } from "@react-three/fiber";
 import { shaderMaterial } from "@react-three/drei";
 import glsl from "babel-plugin-glsl/macro";
-import ACS from "../imgs/acs-banner.png";
+import ACS from "../imgs/workee-banner.png";
 // import { AnimationOnScroll } from 'react-animation-on-scroll';
 // import "animate.css/animate.min.css";
 
@@ -79,7 +79,7 @@ const WorkeeCard = () => {
   return (
     <div class="projectItem">
       {/* <AnimationOnScroll animateIn="animate__bounceIn"> */}
-        <Canvas className='wid80' camera={{ fov: 28, position: [0, 0, 12] }}>
+        <Canvas className='wid80' camera={{ fov: 34, position: [0, 0, 12] }}>
           <Suspense fallback={null}>
             <Wave />
           </Suspense>

@@ -6,7 +6,7 @@ import glsl from "babel-plugin-glsl/macro";
 // import { AnimationOnScroll } from 'react-animation-on-scroll';
 // import "animate.css/animate.min.css";
 
-import ACS from "../imgs/acs-banner.png";
+import ACS from "../imgs/tia-banner.png";
 
 const WaveyShaderMaterial = shaderMaterial (
     // Uniform
@@ -88,7 +88,7 @@ const GizmoCard = () => {
       <div class="projectName">
           <h2 class=" text">
               <span> <sup>03</sup> </span>
-              Gizmo
+              Tia <br/> Health
           </h2>
       </div>
       {/* </AnimationOnScroll> */}
