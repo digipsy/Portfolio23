@@ -317,6 +317,10 @@ footer h2 {
     z-index: 1;
 }
 
+.dontShow {
+    display: none !important;
+}
+
 /* @keyframes adjust-scrollTracker {
     from {
         transform: translateY(0);

@@ -16,7 +16,7 @@ const Scene = () => {
     <>
       <div id='backtoTop' className='wrapper'>
         <Header />
-        <section class="h-100">
+        <section class="h-100 dontShow">
           <h1 class="displayHeading">
               Frontend Developer, based in India
           </h1>
