@@ -33,6 +33,14 @@
   height: 480px !important;
 }
 
+.mar24 {
+    margin-top: 24px;
+}
+
+.animate__animated {
+    width: 100%;
+}
+
 .flex {
   display: flex !important;
 }

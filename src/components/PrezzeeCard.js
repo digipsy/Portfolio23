@@ -3,7 +3,11 @@ import * as THREE from "three";
 import { Canvas, extend, useFrame, useLoader } from "@react-three/fiber";
 import { shaderMaterial } from "@react-three/drei";
 import glsl from "babel-plugin-glsl/macro";
+// import { AnimationOnScroll } from 'react-animation-on-scroll';
+// import "animate.css/animate.min.css";
+
 import ACS from "../imgs/acs-banner.png";
+
 
 const WaveyShaderMaterial = shaderMaterial (
     // Uniform
@@ -76,6 +80,7 @@ const WaveyShaderMaterial = shaderMaterial (
 const PrezzeeCard = () => {
   return (
     <div class="projectItem">
+      {/* <AnimationOnScroll animateIn="animate__bounceIn"> */}
         <Canvas className='wid80' camera={{ fov: 28, position: [0, 0, 12] }}>
           <Suspense fallback={null}>
             <Wave />
@@ -87,6 +92,7 @@ const PrezzeeCard = () => {
                 Prezzee
             </h2>
         </div>
+      {/* </AnimationOnScroll> */}
     </div>
   );
 };
