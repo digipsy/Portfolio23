@@ -2,13 +2,15 @@ import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import GizmoCard from "./components/GizmoCard";
-import ProjectCard from "./components/ProjectCard";
 import PrudentialCard from "./components/PrudentialCard";
 import WorkeeCard from "./components/WorkeeCard";
 import AristCard from "./components/AristCard";
 import PrezzeeCard from "./components/PrezzeeCard";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+import ACS from "./components/ACS";
+// import { Routes, Route } from "react-router-dom";
 import "animate.css/animate.min.css";
+import {Link} from "react-router-dom"
 
 import './App.css';
 
@@ -42,10 +44,10 @@ const Scene = () => {
         </section>
         <div className='projectCont'>
           <AnimationOnScroll animateIn="animate__fadeIn" animateOut="animate__fadeOut">
-            <PrudentialCard />
+            <Link to="/projectPage"><PrudentialCard /></Link>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeIn" animateOut="animate__fadeOut">
-            <ProjectCard />
+            <Link to="/projectPage"><ACS /></Link>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeIn" animateOut="animate__fadeOut">
             <GizmoCard />

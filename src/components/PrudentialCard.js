@@ -77,7 +77,7 @@ const WaveyShaderMaterial = shaderMaterial (
 
 const PrudentialCard = () => {
   return (
-    <div class="projectItem">
+    <div onClick="" class="projectItem">
       {/* <AnimationOnScroll animateIn="animate__bounceIn"> */}
         <Canvas className='wid80' camera={{ fov: 28, position: [0, 0, 12] }}>
           <Suspense fallback={null}>
@@ -94,5 +94,10 @@ const PrudentialCard = () => {
     </div>
   );
 };
+
+
+// const openCS = () => {
+//   alert("Great Shot!");
+// }
 
 export default PrudentialCard;
